@@ -1,0 +1,125 @@
+#my-page{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+    color: white;
+    padding-bottom: 225px;
+    position: relative;
+}
+#my-page .personal-name{
+    margin-bottom: 30px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.spotify-container{
+    width: 100%;
+}
+.section-title{
+    font-size: 1.1rem;
+    font-weight: bold;
+    width: 100%;
+    height: 40px;
+    margin: 15px 0px 5px 0px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.section-container{
+    width: 100%;
+    height: auto;
+    padding: 15px 10px;
+    background-color:#2f2e32;
+    border-radius: 5px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.item-body{
+  height: 40px;  
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  background-color: rgba(255, 255, 255, 0.247);
+  border-radius: 5px;
+}
+.item-body .icon img{
+    height: 25px;
+    width: 25px;
+}
+.item-body .icon{
+    margin-right: 20px;
+}
+.section-container form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+.section-container form fieldset{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border: none;
+}
+.section-container form fieldset input{
+    margin-bottom: 15px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+.section-container form button{
+    height: 40px;
+    width: 100px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+.bottom-container{
+    width: 100vw;
+    height: 200px;
+    background-color: #2f2e32;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    border-top: 1px solid rgba(128, 128, 128, 0.479);
+}
+.bottom-container .buttons-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.bottom-container .buttons-container button{
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid transparent;
+}
